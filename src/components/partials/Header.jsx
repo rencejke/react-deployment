@@ -16,7 +16,7 @@ const Header = () => {
        <button className='xs:block md:hidden xs:text-[22px]' onClick={handleShowNav}><RiMenu2Line /></button>
         <h3 className='text-[30px] xs:text-[18px]'>eCourse</h3>
        </div>
-       <nav className={`${showNav ? "left-0" : "-left-full"}  fixed md:static top-0 left-0 w-full h-screen bg-black z-[9999] pt-20 px-6 pb-6 transition-all md:bg-transparent  md:pt-0 md:px-0 md:pb-0 md:h-auto md:flex  md:justify-center` }>
+       <nav className={`${showNav ? "left-0" : "-left-full"}  fixed md:static top-0 w-full h-screen bg-black z-[9999] pt-20 px-6 pb-6 transition-all md:bg-transparent  md:pt-0 md:px-0 md:pb-0 md:h-auto md:flex  md:justify-center` }>
         <ul className='md:flex md:flex-row md:gap-12 xs:flex xs:flex-col xs:gap-8 xs:text-[20px] cursor-pointer'>
             <li>Home</li>
             <li>Courses</li>

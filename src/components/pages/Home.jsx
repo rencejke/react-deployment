@@ -30,7 +30,7 @@ const Home = () => {
         </div>
 
         <div className='img-banner md:size-[100%] xs:order-1 xs:w-[300px] xs:mx-auto xs:mb-2'>
-        <img src="../../public/home-img.png" alt="" />
+        <img src="./home-img.png" alt="" />
         </div>
       </div>
      </section>
