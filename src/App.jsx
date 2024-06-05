@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         {/* Page Example **/}
-        <Route path="/" element={<Home />} />
+        <Route path="/react-deployment/" element={<Home />} />
         {/* Not Found Page Uses **/}
         <Route path="*" element={<h2>Not Found</h2>} />
       </Routes>
