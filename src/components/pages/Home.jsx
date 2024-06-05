@@ -16,8 +16,8 @@ const Home = () => {
      <section className='banner'>
       <div className="container grid md:grid-cols-2 xs:grid-cols-1 md:gap-12 xs:gap-2 pt-20">
         <div className='md:order-1 xs:order-2 xs:px-2 md:px-0'>
-        <h1 className='md:text-[80px] xs:text-[25px]'>First Heading Will Go Here</h1>
-        <p className='md:text-left md:text-[18px] xs:text-[9px] '>
+        <h1 className='md:text-[80px] text-[21px] text-balance'>First Heading Will Go Here</h1>
+        <p className='md:text-left md:text-[18px] xs:text-[9px] opacity-80 leading-4 mt-2 '>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Eius sed distinctio vitae placeat animi repudiandae qui, eum laudantium repellendus dolores delectus culpa ipsam earum deleniti at sequi ducimus accusantium ullam
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed pariatur dolores, corrupti ducimus obcaecati repellendus eaque animi neque beatae necessitatibus?
