@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         {/* Page Example **/}
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         {/* Not Found Page Uses **/}
         <Route path="*" element={<h2>Not Found</h2>} />
       </Routes>
